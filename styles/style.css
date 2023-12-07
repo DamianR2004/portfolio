@@ -1,0 +1,46 @@
+* {
+    font-family: 'Cabin', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ :root{
+--PrimaryBackground: #fff0db;
+--Secondary1: #000000;
+--Secondary2: #076128;
+--TextColor: #ffffff;
+--TextExtraLarge: 76px;
+--TextLarge: 40px;
+--TextMedium: 30px;
+--TextNormal: 16px;
+}
+
+
+body{
+    background: var(--Secondary1);
+}
+
+.main-head sup{
+    font-size: var(--TextLarge)
+} 
+
+.main-head h1 {
+    font-size: var(--TextExtraLarge);
+    color: var(--TextColor);
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+    scale: 2;
+}
+
+.damian:hover{
+    transition-duration: 2s;
+    translate: 30%;
+    scale: 2;
+}
+
+.romeijn:hover{
+    transition-duration: 2s;
+    translate: -30%;
+}
